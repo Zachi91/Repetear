@@ -1,0 +1,13 @@
+string userInput;
+int repeatCount;
+
+Console.WriteLine("Привет пользователь! Введи текст который хочешь повторить!");
+userInput = Console.ReadLine();
+Console.WriteLine("Теперь введи кол-во повторов!");
+repeatCount = Convert.ToInt32(Console.ReadLine());
+while (repeatCount > 0) 
+    {
+repeatCount--;
+Console.WriteLine(userInput);
+    }
+Console.ReadKey();
